@@ -129,7 +129,7 @@ window.onload = function () {
       this.position = [];
       var playerWon = Board.checkifAnybodyWon();
       if (playerWon) {
-        $('#winner').html("Player " + playerWon + " has won!");
+        $('#winner').html("Jogador " + playerWon + " venceu");
       }
     }
   }
